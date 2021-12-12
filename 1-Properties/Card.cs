@@ -58,6 +58,7 @@ namespace Properties
             return $"{this.GetType().Name}(_Name={this.GetName()}, Seed={this.GetSeed()}, Ordinal={this.GetOrdinal()})";
         }
         
+        
         // TODO generate Equals(object obj)
         protected bool Equals(Card other)
         {
